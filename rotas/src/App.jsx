@@ -1,4 +1,3 @@
-// Editaremos aqui
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Sobre from './pages/Sobre/Sobre';
 import Home from './pages/Home/Home';
@@ -11,6 +10,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     // Editaremos aqui
+  
     <BrowserRouter>
     <Navbar/>
       <main style={{minHeight: '80vh',padding: '20px'}}>
